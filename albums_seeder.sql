@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
 CREATE TABLE IF NOT EXISTS albums (
                                       artist VARCHAR(33) CHARACTER SET utf8,
                                       album VARCHAR(55) CHARACTER SET utf8,
