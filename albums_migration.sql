@@ -9,12 +9,12 @@ DROP TABLE IF EXISTS albums;
 -- sales — floating point value for number of records sold (in millions)
 -- genre — string for storing the record's genre(s)
 
-CREATE TABLE IF NOT EXISTS albums (
-'id' int(10) unsigned NOT NULL AUTO_INCREMENT,
-'artist' varchar(50) DEFAULT NULL,
-'name' varchar(100) DEFAULT NULL,
-'release_date' date DEFAULT NULL,
-'sales' int DEFAULT NULL,
-'genre' varchar(50) DEFAULT NULL,
-PRIMARY KEY ('id')
+CREATE TABLE albums (
+id int(10) unsigned NOT NULL AUTO_INCREMENT,
+artist varchar(50) DEFAULT NULL,
+name varchar(100) DEFAULT NULL,
+release_date date DEFAULT NULL,
+sales int DEFAULT NULL,
+genre varchar(50) DEFAULT NULL,
+PRIMARY KEY (id)
 );
