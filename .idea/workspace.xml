@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638337c2-a525-4da2-a8da-f85aed3f3066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/albums_seeder.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select_exercises.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_exercises.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587050498182</updated>
       <workItem from="1587050500852" duration="422000" />
-      <workItem from="1587051282902" duration="5009000" />
+      <workItem from="1587051282902" duration="6472000" />
     </task>
     <servers />
   </component>
