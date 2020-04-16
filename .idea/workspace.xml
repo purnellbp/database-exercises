@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638337c2-a525-4da2-a8da-f85aed3f3066" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/albums_seeder.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select_exercises.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,19 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager">
+    <configuration name="select_exercises.sql" type="DatabaseScript" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/select_exercises.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="25b1bcc9-ebb1-4684-be48-c41faf99bf51" namespace="schema/&quot;codeup_test_db&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.select_exercises.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -39,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587050498182</updated>
       <workItem from="1587050500852" duration="422000" />
-      <workItem from="1587051282902" duration="1345000" />
+      <workItem from="1587051282902" duration="5009000" />
     </task>
     <servers />
   </component>
@@ -51,18 +66,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#SQL_Dialects/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1587050568229" />
-    <state x="415" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587052631446">
+    <state x="415" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587055614910">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="552" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1587050576971" />
-    <state x="415" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1587052631446" />
-    <state width="221" height="539" key="HiddenNamespacesPopup" timestamp="1587052570152">
+    <state x="415" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1587055614910" />
+    <state x="421" y="110" key="#select_exercises.sql" timestamp="1587055671416">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="221" height="539" key="HiddenNamespacesPopup/0.23.1440.833@0.23.1440.833" timestamp="1587052570152" />
-    <state x="383" y="177" width="672" height="678" key="search.everywhere.popup" timestamp="1587051599954">
+    <state x="421" y="110" key="#select_exercises.sql/0.23.1440.833@0.23.1440.833" timestamp="1587055671416" />
+    <state width="1398" height="357" key="GridCell.Tab.0.bottom" timestamp="1587055743047">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="383" y="177" width="672" height="678" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1587051599954" />
+    <state width="1398" height="357" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1587055743047" />
+    <state width="1398" height="357" key="GridCell.Tab.0.center" timestamp="1587055743046">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1587055743046" />
+    <state width="1398" height="357" key="GridCell.Tab.0.left" timestamp="1587055743045">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1587055743045" />
+    <state width="1398" height="357" key="GridCell.Tab.0.right" timestamp="1587055743047">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1587055743047" />
+    <state width="221" height="539" key="HiddenNamespacesPopup" timestamp="1587052644346">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="221" height="539" key="HiddenNamespacesPopup/0.23.1440.833@0.23.1440.833" timestamp="1587052644346" />
+    <state x="627" y="325" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1587055605032">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="627" y="325" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.23.1440.833@0.23.1440.833" timestamp="1587055605032" />
+    <state x="383" y="177" width="672" height="678" key="search.everywhere.popup" timestamp="1587052916812">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="383" y="177" width="672" height="678" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1587052916812" />
   </component>
 </project>
