@@ -1,8 +1,9 @@
 USE employees;
 # Find all employees with first names 'Irena', 'Vidya', or 'Maya' — 709 rows (Hint: Use IN).
-SELECT first_name, last_name FROM employees
-WHERE first_name IN ('Irena', 'Vidya', 'Maya')
+SELECT concat(last_name, ' ', first_name) FROM employees
+WHERE last_name LIKE 'E%e'
 ORDER BY first_name ASC ;
+
 
 # Find all employees whose last name starts with 'E' — 7,330 rows.
 SELECT last_name FROM employees WHERE last_name LIKE 'E%';
@@ -20,10 +21,3 @@ SELECT last_name, emp_no FROM employees WHERE last_name LIKE '%E%'
 ORDER BY emp_no ASC;
 
 
-# Use concat() to combine their first and last name together as a single column in your results.
-SELECT concat(first_name, " ", last_name) AS full_name FROM employees WHERE last_name LIKE '%E%'
-ORDER BY emp_no ASC
-LIMIT 500;
-
-SELECT birth_date, concat(first_name, " ", last_name) AS full_name FROM employees WHERE birth_date LIKE '199%'
-ORDER BY birth_date ASC;
